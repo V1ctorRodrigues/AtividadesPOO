@@ -1,7 +1,7 @@
 public class atv1 {
     public static void main(String[] args) {
         int num1 = 10;
-        int num2 = 2;
+        int num2 = 4;
         int resultado;
 
         resultado = num1+num2;
