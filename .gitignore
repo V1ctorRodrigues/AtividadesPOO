@@ -40,3 +40,9 @@ nbdist/
 # Arquivos de sistema
 .DS_Store
 Thumbs.db
+
+# Arquivos compilados
+bin/
+
+# VS Code
+.vscode/
