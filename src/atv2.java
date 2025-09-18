@@ -6,7 +6,7 @@ public class atv2 {
         Scanner sc = new Scanner(System.in);
         int resposta;
         
-        System.out.println("Digite seu inteiro");
+        System.out.println("Digite um número inteiro");
         resposta = sc.nextInt();
 
         System.out.println("Seu antecessor é: " + (resposta-1));
