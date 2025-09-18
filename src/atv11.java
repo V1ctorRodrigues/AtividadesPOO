@@ -7,7 +7,7 @@ public class atv11 {
         int num1;
         int num2;
 
-        System.out.println("Informe o primeiro e o segundo inteiro: ");
+        System.out.println("Digite dois números inteiros: ");
         num1 = sc.nextInt();
         num2 = sc.nextInt();
         resultado = num1+num2;
