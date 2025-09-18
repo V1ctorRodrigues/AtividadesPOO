@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class atv3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
         int Idade;
         
         System.out.println("Digite sua idade");
-        Idade = sc.nextInt();
+        Idade = leitor.nextInt();
 
         if(Idade >= 18){
             System.out.println("Você é maior de idade.");
