@@ -4,7 +4,7 @@ public class atv3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double precoLitro, valorTotal, valorFinal = 0;
+        double precoLitro, resultadoFinal, valorFinal = 0;
         String combustivel;
 
         System.out.println("Selecione o combustível: \nG - Gasolina  A - Álcool");
@@ -24,20 +24,20 @@ public class atv3 {
             return;
         }
 
-        valorTotal = quantidade * precoLitro;
+        resultadoFinal = quantidade * precoLitro;
 
         
         if (combustivel.equalsIgnoreCase("G")) {
             if (quantidade <= 20) {
-                valorFinal = valorTotal - (valorTotal * 0.03);
+                valorFinal = resultadoFinal - (resultadoFinal * 0.03);
             } else {
-                valorFinal = valorTotal - (valorTotal * 0.05);
+                valorFinal = resultadoFinal - (resultadoFinal * 0.05);
             }
         } else if (combustivel.equalsIgnoreCase("A")) {
             if (quantidade <= 20) {
-                valorFinal = valorTotal - (valorTotal * 0.04);
+                valorFinal = resultadoFinal - (resultadoFinal * 0.04);
             } else {
-                valorFinal = valorTotal - (valorTotal * 0.06);
+                valorFinal = resultadoFinal - (resultadoFinal * 0.06);
             }
         }
 
