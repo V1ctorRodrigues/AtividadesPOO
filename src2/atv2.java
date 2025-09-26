@@ -13,7 +13,7 @@ public class atv2 {
             case 14, 15, 16, 17 -> System.out.println("Juvenil B");
         }
         if (idade >= 18){
-            System.out.println("Modalidade Adulto");
+            System.out.println("Adulto");
         } else if(idade <= 4){
             System.out.println("Idade não aceita pelo regulamento");
         }
