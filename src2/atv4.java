@@ -4,6 +4,6 @@ public class atv4 {
         for (int i = 10; i>=0 ; i--){
             System.out.println(i);
         }
-        System.out.println("Lançar!");
+        System.out.println("Lançar");
     }
 }
