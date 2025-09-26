@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class atv1 {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Informe a sua idade:");
-        int idade = sc.nextInt();
+        int idade = scanner.nextInt();
 
         if (idade >= 18 && idade <= 70){
             System.out.println("Você é obrigado a votar");
