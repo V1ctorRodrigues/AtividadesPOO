@@ -10,6 +10,8 @@ public class Exerc3 {
         return maior;
     }
     public static void main(String[] args) {
+        int [] numeros = {12, 34, 55, 1, 3, 7};
+        System.out.println("O maior valor presente é: " + maiorArray(numeros));
         
     }
     
