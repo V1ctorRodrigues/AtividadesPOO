@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Produtos{
+public class ProdutosExercicio1{
 
     public static void mostrarLista(ArrayList <String> lista){
         System.out.println();
@@ -45,13 +45,13 @@ public class Produtos{
             sc.nextLine();
             switch (respostaUsuario) {
                 case 1:
-                    Produtos.mostrarLista(generico);
+                    ProdutosExercicio1.mostrarLista(generico);
                     break;
                 case 2:
-                    Produtos.adicionarItem(generico, sc);
+                    ProdutosExercicio1.adicionarItem(generico, sc);
                     break;
                 case 3:
-                    Produtos.removerItem(generico, sc);
+                    ProdutosExercicio1.removerItem(generico, sc);
                     break;
                 case 4:
                     flag = false;

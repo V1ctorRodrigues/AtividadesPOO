@@ -5,7 +5,7 @@ public class MainExercicio1 {
      public static void main(String[] args) {
           ArrayList<String> compras = new ArrayList<>();
           Scanner sc = new Scanner(System.in);
-          Produtos.exibirMenu(sc);
+          ProdutosExercicio1.exibirMenu(sc);
           sc.close();
      }
 }
