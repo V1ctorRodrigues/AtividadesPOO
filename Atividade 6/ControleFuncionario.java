@@ -21,4 +21,16 @@ public class ControleFuncionario{
             System.out.println("Número inválido");
         }
     }
+    public void mostrarSalario(String CPF){
+        boolean cpfEncontrado = false;
+        for(Funcionario a : funcionarios){
+            if(a.getCPF().equalsIgnoreCase(CPF)){
+                cpfEncontrado = true;
+                System.out.println(a.getSalario());
+            } 
+        }
+        if(cpfEncontrado == false){
+            System.out.println("Cpf inexistente");
+        }
+    }
 }
