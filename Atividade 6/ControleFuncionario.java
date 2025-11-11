@@ -1,9 +1,7 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ControleFuncionario{
     private ArrayList <Funcionario> funcionarios = new ArrayList<>();
-    Scanner sc = new Scanner(System.in);
 
     public void addFuncionario(Funcionario novoFuncionario){
         funcionarios.add(novoFuncionario);
@@ -11,7 +9,7 @@ public class ControleFuncionario{
 
     public void mostrarFuncionarios(){
         for(int i=0; i<funcionarios.size(); i++){
-            System.out.println(i+". "+funcionarios.get(i));
+            System.out.println(funcionarios.get(i));
         }
     }
     public void removerFuncionario(int remover){
@@ -26,7 +24,7 @@ public class ControleFuncionario{
         for(Funcionario a : funcionarios){
             if(a.getCPF().equalsIgnoreCase(CPF)){
                 cpfEncontrado = true;
-                System.out.println(a.getSalario());
+                System.out.println(a.getNome() + ": " + a.getSalario() + " Reais");
             } 
         }
         if(cpfEncontrado == false){
