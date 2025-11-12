@@ -25,9 +25,9 @@ public class Menu {
                     System.out.println("Informe salário do Gerente:");
                     double salario = sc.nextDouble(); 
                     sc.nextLine();
-                    System.out.println("Informe a data de aniversário(digite dia-mes-ano):");
+                    System.out.println("Informe a data de aniversário(digite diaMESano, sem espaços):");
                     String dataTexto = sc.nextLine();
-                    LocalDate aniversario = LocalDate.parse(dataTexto, DateTimeFormatter.ofPattern("dd-MM-yyyy"));
+                    LocalDate aniversario = LocalDate.parse(dataTexto, DateTimeFormatter.ofPattern("ddMMyyyy"));
                     String cargo = "Gerente";
 
                     Gerente novoGerente = new Gerente(nome, CPF, salario, aniversario, cargo);
